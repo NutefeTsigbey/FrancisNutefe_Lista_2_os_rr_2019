@@ -1,0 +1,22 @@
+1.Explique a função dos Sistemas de Arquivos. Adicionalmente, descreva a diferença entre o
+sistema de arquivos do linux e do windows.
+
+Arquivo é um mecanismo de abstração. Ele oferece meios de armezenar informações no disco e de lê elas depois. 
+Muitos sistemas operacionais dão suporte a vários tipos de arquivos. 
+
+Um sistema de arquivos é um conjunto de estruturas lógicas e de rotinas, que permitem ao sistema operacional controlar o acesso ao disco rígido. Ele armazena e organiza dados e pode ser considerado como um tipo de índice para todos os dados contidos em um dispositivo de armazenamento.
+
+Existem diversos sistemas de arquivos diferentes, que vão desde sistemas simples como o FAT16, que utilizamos em cartões de memória, até sistemas como o NTFS, EXT3 e ReiserFS, que incorporam recursos muito mais avançados.
+
+O Windows usa FAT e NTFS como sistemas de arquivos, enquanto o Linux usa vários sistemas de arquivos; os mais comuns são os da família Ext, XFS, JFS. Ext é o mais comum de ser utilizado, existem os Ext 2, 3 e 4, o 4 é o mais utilizado no momento.
+
+O sistema de arquivos do Linux tem algumas diferenças do sistema de arquivos do Windows. Você não encontrará letras diretas ou barras invertidas, mas encontrará um layout com aparência de alienígena no qual os arquivos podem ter o mesmo nome, diferindo apenas em letras maiúsculas. Mas ambos o Windows e o Linux organizam arquivos baseados em disco em uma hierarquia de diretórios.
+
+Sistema de arquivos do Windows recebe uma letra de unidade, como "C:", no Linux, cada sistema de arquivos recebe um dispositivo, como /dev/hda1 (“disco rígido A parte 1”).
+
+
+https://searchstorage.techtarget.com/definition/file-system
+https://linuxexplore.com/2012/10/01/linux-file-system-and-windows-file-system-difference/
+https://brainly.com.br/tarefa/12764383
+https://www.hardware.com.br/termos/sistema-de-arquivos
+
